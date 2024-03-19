@@ -21,7 +21,8 @@ def upload_file():
             img_io = BytesIO()
             output_image.save(img_io, "PNG")
             img_io.seek(0)
-            # return send_file(img_io, mimetype='image/png')  # Change download in separatre browser tab
+            # return send_file(img_io, mimetype='image/png')
+            # Change download in separatre browser tab
             return send_file(
                 img_io,
                 mimetype="image/png",
