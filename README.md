@@ -1,4 +1,4 @@
-# Remove Background Svetle + Flask App
+# Remove Background | Svetle + Flask App
 
 ## Overview
 
